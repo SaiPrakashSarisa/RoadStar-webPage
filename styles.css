@@ -1,0 +1,202 @@
+@media only screen and (max-width: 477px){
+    body{
+        margin: 0;
+        font-family: sans-serif;
+    } 
+    .container{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        /* overflow: hidden; */
+    }
+    .navbar{
+        background-color: white;
+        width: 98.5%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        box-shadow: 0px 1px 0px black;
+        position: fixed;
+        z-index: 1000PX;
+    }
+    .navbar1{
+        width: 200%;
+    }
+    .logo-container{
+        float:left;
+        margin-top: 10px;
+        /* display: flex; */
+        /* align-items: center; */
+    }
+    .logo{
+        width: 50px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    .nav-menu{
+        float: left;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        margin-right: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    nav ul li a:hover{
+        color: brown;
+        text-decoration: 2px underline brown;
+
+    }
+    .navbar2{
+        
+        /* background: goldenrod; */
+        display: flex;
+        align-items:center;
+    }
+    .menu{
+        width: 20px;
+        display: none;
+        margin-right: 20px;
+        cursor:pointer;
+    }
+    .profile{
+        width: 25px;
+        margin-right: 20px;
+        cursor:pointer;
+    }  
+    .cart{
+        width: 25px;
+        margin-right: 25px;
+        cursor:pointer;
+    }
+    .hiddend{
+        width: 100%;
+        height: 75.5px;
+        background-color: white;
+    }
+    /* ----------------------------------------------------header elements closes here --------------------------------*/
+    #title{
+        color:rgb(28, 27, 27);
+        font-size: 14px;
+    }
+    h4{
+        display: inline;
+        margin-right: 8px;
+        font-size: 14px;
+    }
+    del{
+        color: gray;
+        margin-right: 8px;
+        font-size: 14px;
+    }
+    #offer{
+        color: green;
+        display: inline;
+        font-size: 14px;
+    }
+    #image{
+        width: 160px;
+        height: 200px;
+        margin: 0px;
+    }
+ 
+    .r1c1{
+        width: 50%;
+        height: 300px;
+        /* background-color: aquamarine; */
+        float:left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }  
+    .r1c1img{
+        width: 160px;
+        height: 200px;
+        display:flex;
+        flex-direction:row;
+        overflow: hidden;
+    }
+    .wholeimgr1c1:hover{
+        display: flex;
+        position:relative;
+        animation-name: slide;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slide{
+        0% {left: 0px;}
+        15%{left: 0px;}
+        21%{left: -160px;}
+        35%{left: -160px;}
+        41%{left: -320px;}
+        55%{left: -320px;}
+        61%{left: -480px;}
+        75%{left: -480px;}
+        81%{left: -640px;}  
+        95%{left: -640px;}  
+    }
+    .r1c2{
+        width: 50%;
+        height: 300px;
+        float: left;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    .r1c2img{
+        width: 160px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .r1c3{
+        width: 50%;
+        height: 300px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .r1c3img{
+        width: 160px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .r1c4{
+        width: 50%;
+        height: 300px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .r1c4img{
+        width: 160px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 407px){
+    .nav-menu{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
